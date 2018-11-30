@@ -1,0 +1,28 @@
+Command line:
+   gogogoTop_gogogoTop_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1442
+
+Mon Mar 12 14:10:41 2018
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 1042.97 Meg
+
+ Total Signals          : 356
+ Total Nets             : 100
+ Total Signal Drivers   : 61
+ Total Blocks           : 63
+ Total Primitive Blocks : 60
+ Total Processes        : 59
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 1104
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 413.827 Meg
+
+Mon Mar 12 15:41:46 2018
+

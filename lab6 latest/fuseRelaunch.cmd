@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/83896/Desktop/lab6 latest/gogogoTop_gogogoTop_sch_tb_isim_beh.exe" -prj "C:/Users/83896/Desktop/lab6 latest/gogogoTop_gogogoTop_sch_tb_beh.prj" "work.gogogoTop_gogogoTop_sch_tb" 

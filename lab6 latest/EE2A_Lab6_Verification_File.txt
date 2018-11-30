@@ -1,0 +1,17 @@
+Starting Simulation
+
+Test normal state transitions
+Input 'reset',Force into State 1, LEDs = 000    Z = 0
+Intput 9,Force into State 2, LEDs = 001    Z = 0
+Input 4,Force into State 3, LEDs = 011    Z = 0
+Input 6,Force into State 4, LEDs = 010    Z = 0
+Input 7,Force into State 5, LEDs = 110    Z = 0
+Input 0,Force into State 6, LEDs = 111    Z = 1
+Input Dr,Force back to State 1, LEDs = 000    Z = 0
+Test Fraudulent state transitions
+Input 'reset',Force into State 1, LEDs = 000    Z = 0
+Input 9,Force into State 2, LEDs = 001    Z = 0
+Input 4,Force into State 3, LEDs = 011    Z = 0
+Input 6,Force into State 4, LEDs = 010    Z = 0
+Input 7,Force into State 5, LEDs = 110    Z = 0
+Input 6,Force into State 1, LEDs = 000    Z = 0

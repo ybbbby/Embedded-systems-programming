@@ -1,0 +1,162 @@
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl gogogoTop_drc.vhf -w D:/ISEProject/lab66/gogogoTop.sch 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "D:/ISEProject/lab66/gogogoTop.xst" -ofn "D:/ISEProject/lab66/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 gogogoTop.ngc gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 simulate/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 
+xst -intstyle ise -ifn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.xst" -ofn "C:/Users/83896/Desktop/lab6 latest/gogogoTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "gogogoTop.ngc" gogogoTop.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o gogogoTop_map.ncd gogogoTop.ngd gogogoTop.pcf 
+par -w -intstyle ise -ol high -mt off gogogoTop_map.ncd gogogoTop.ncd gogogoTop.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f gogogoTop.ut gogogoTop.ncd 

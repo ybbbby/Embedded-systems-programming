@@ -1,0 +1,3 @@
+vhdl isim_temp "GOGOGO.vhf"
+vhdl isim_temp "gogogoTop.vhf"
+vhdl isim_temp "test.vhd"

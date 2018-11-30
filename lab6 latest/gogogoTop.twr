@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml gogogoTop.twx gogogoTop.ncd -o gogogoTop.twr gogogoTop.pcf -ucf
+Nexys3_Master.ucf
+
+Design file:              gogogoTop.ncd
+Physical constraint file: gogogoTop.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn<0>         |Led<0>         |   16.284|
+btn<0>         |Led<1>         |   14.560|
+btn<0>         |Led<2>         |   17.423|
+btn<0>         |Led<4>         |   17.402|
+btn<1>         |Led<0>         |   16.366|
+btn<1>         |Led<1>         |   14.642|
+btn<1>         |Led<2>         |   17.505|
+btn<1>         |Led<4>         |   17.484|
+btn<2>         |Led<0>         |   16.935|
+btn<2>         |Led<1>         |   15.211|
+btn<2>         |Led<2>         |   18.074|
+btn<2>         |Led<4>         |   18.053|
+btn<3>         |Led<0>         |   16.751|
+btn<3>         |Led<1>         |   15.027|
+btn<3>         |Led<2>         |   17.890|
+btn<3>         |Led<4>         |   17.869|
+sw<0>          |Led<0>         |   15.664|
+sw<0>          |Led<1>         |   13.940|
+sw<0>          |Led<2>         |   16.803|
+sw<0>          |Led<4>         |   16.782|
+sw<1>          |Led<0>         |   15.222|
+sw<1>          |Led<1>         |   13.498|
+sw<1>          |Led<2>         |   16.361|
+sw<1>          |Led<4>         |   16.340|
+sw<2>          |Led<0>         |   15.288|
+sw<2>          |Led<1>         |   13.564|
+sw<2>          |Led<2>         |   16.427|
+sw<2>          |Led<4>         |   16.406|
+sw<3>          |Led<0>         |   15.314|
+sw<3>          |Led<1>         |   13.590|
+sw<3>          |Led<2>         |   16.453|
+sw<3>          |Led<4>         |   16.432|
+sw<4>          |Led<0>         |   15.448|
+sw<4>          |Led<1>         |   13.724|
+sw<4>          |Led<2>         |   16.587|
+sw<4>          |Led<4>         |   16.566|
+sw<5>          |Led<0>         |   15.308|
+sw<5>          |Led<1>         |   13.584|
+sw<5>          |Led<2>         |   16.447|
+sw<5>          |Led<4>         |   16.426|
+sw<6>          |Led<0>         |   15.157|
+sw<6>          |Led<1>         |   13.433|
+sw<6>          |Led<2>         |   16.296|
+sw<6>          |Led<4>         |   16.275|
+sw<7>          |Led<0>         |   15.759|
+sw<7>          |Led<1>         |   14.035|
+sw<7>          |Led<2>         |   16.898|
+sw<7>          |Led<4>         |   16.877|
+---------------+---------------+---------+
+
+
+Analysis completed Sat Mar 10 14:31:12 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 283 MB
+
+
+
