@@ -1,4 +1,4 @@
-## This repository include 5 challenging embedded programming I finished last year
+## This repository include 5 challenging embedded programming I finished in 2017-2018
 
 - The "EE2A" is the course's code, just ignore it:D
 - Each task requirement is shown in .pdf files
